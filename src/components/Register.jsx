@@ -7,7 +7,7 @@ const Register = (data, getForm) => {
   const [gender, setGender] = useState('');
   const [department, setDepartment] = useState('');
   const [course, setCourse] = useState('');
-  const [institution, setInstitution] = useState(SQI);
+  const [institution, setInstitution] = useState("SQI");
 
   const submitForm =() => {
     console.log({name, age, gender, department, course, institution});

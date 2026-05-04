@@ -7,11 +7,13 @@ import Landingpage from './pages/Landingpage'
 import { Newcomponent } from './components/Newcomponent'
 import {Todo} from './components/todo'
 import Dashboard from './pages/Dashboard'
+import Register from './components/Register'
 
 
 const App = () => {
   return (
     <div>
+      {/* {<Register/>} */}
     {/* <Landingpage/> */}
     {/* <Newcomponent/> */}
     {/* <Todo/> */}
