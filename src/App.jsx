@@ -8,17 +8,27 @@ import { Newcomponent } from './components/Newcomponent'
 import {Todo} from './components/todo'
 import Dashboard from './pages/Dashboard'
 import Register from './components/Register'
+import Button from './components/Button'
+import Box from './components/Box'
+import Input from './components/Input'
+import Signin from './components/Signin'
+
 
 
 const App = () => {
   return (
-    <div>
+
+    <>
       {/* {<Register/>} */}
     {/* <Landingpage/> */}
-    {/* <Newcomponent/> */}
+    <Newcomponent/>
     {/* <Todo/> */}
-    {<Dashboard/>}
-    </div>
+    {/* <Dashboard/> */}
+    {/* <Button/> */}
+    {/* <Box/> */}
+    {/* <Input/> */}
+    {/* <Signup/> */}
+    </>
   )
 }
 

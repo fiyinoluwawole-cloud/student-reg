@@ -11,12 +11,12 @@ const Register = (data, getForm) => {
 
   const submitForm =() => {
     console.log({name, age, gender, department, course, institution});
-    data.name = name
-    data.age = age
-    data.gender = gender
-    data.department = department
-    data.course = course
-    data.institution = institution
+    data.name = name;
+    data.age = age;
+    data.gender = gender;
+    data.department = department;
+    data.course = course;
+    data.institution = institution;
 
     getForm(data)
   };

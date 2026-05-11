@@ -28,13 +28,13 @@ export const Todo = () => {
         
     };
 
-    const handleDelete = (index) => {
-    const newArray = [...todoArray]
+    // const handleDelete = (index) => {
+    // const newArray = [...todoArray]
 
-    todoArray.splice(index,1)
+    // todoArray.splice(index,1)
 
-    setTodoArray(newArray)
-    }
+    // setTodoArray(newArray)
+    // }
 
     const deleteWithFilter = (index) => {
         console.log(index);
